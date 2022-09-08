@@ -66,8 +66,13 @@ ul{
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
+main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
 .big{
-    height: 50vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,6 +80,7 @@ ul{
     margin-bottom: 5em;
     margin-right: 10em;
     box-sizing: border-box;
+    margin-top: 5em;
 }
 .section1,.section2{
     flex-direction: column;
@@ -109,7 +115,7 @@ ul{
     align-items: center;
 }
 .section1{
-    padding: 10em;
+    margin: 10em;
 }
 .imgcontainer{
     display: flex;
